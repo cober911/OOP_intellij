@@ -1,6 +1,6 @@
 package Seminar2;
 
-public class Wolf extends Predator {
+public class Wolf extends Predator implements Walkable{
     public Wolf(String name) {
         super(name);
     }
@@ -13,5 +13,10 @@ public class Wolf extends Predator {
     @Override
     public String toString() {
         return String.format("Wolf, %s", super.toString());
+    }
+
+    @Override
+    public int speedForWalk() {
+        return 40;
     }
 }

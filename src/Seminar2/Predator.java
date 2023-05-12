@@ -1,12 +1,12 @@
 package Seminar2;
 
-public abstract class Predator extends Animal{
+public abstract class Predator extends Animal {
 
     public Predator(String name) {
         super(name);
     }
 
-    public String feed(){
+    public String feed() {
         return "meat";
     }
 }
