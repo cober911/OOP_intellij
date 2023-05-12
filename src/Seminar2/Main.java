@@ -7,7 +7,9 @@ public class Main {
         zoo.addList(new Wolf("Wolff"))
                 .addList(new Hare("Haree"))
                 .addList(new Duck("DonaldDuck"))
-                .addList(new Bat("Batman"));
+                .addList(new Bat("Batman"))
+                .addList(new Kombala("Morskaya"))
+                .addList(new Osetr("Srednemorskoiy"));
 //        for (var item: zoo.walkables()) {
 //            System.out.println(item.toString());
 //        }
@@ -19,7 +21,7 @@ public class Main {
         System.out.println("-----------------");
         System.out.println("Winner " + zoo.winnerFly());
         System.out.println("------------------");
-//        System.out.println("Winner: " + zoo.winnerSwim());
+        System.out.println("Winner: " + zoo.winnerSwim());
     }
 
 }
