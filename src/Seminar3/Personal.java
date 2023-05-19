@@ -26,4 +26,15 @@ public class Personal implements Iterable<User>{
         users.add(user);
         return this;
     }
+    public List<User> toList(){
+        List<User> results = new ArrayList<>();
+        for (User user: this) {
+        results.add(user);
+        }
+        return results;
+    }
+
+    public int size(){
+        return users.size();
+    }
 }
