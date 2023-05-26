@@ -10,10 +10,10 @@
 * сохранение заметок в общем файле notes.txt
 
 Команды:
-NONE
-CREATE
-UPDATE
-DELETE
-LIST
-FIND
+NONE,
+CREATE,
+UPDATE,
+DELETE,
+LIST,
+FIND,
 EXIT
