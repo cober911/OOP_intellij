@@ -8,8 +8,7 @@ public class Main {
         newList.addFront("777");
         newList.addLast(12052023);
         newList.addFront(1990);
-        for (var item :
-                newList) {
+        for (var item : newList) {
             System.out.println(item);
         }
     }
