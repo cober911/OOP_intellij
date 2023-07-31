@@ -1,10 +1,10 @@
-package Lesson_10.Ex004.V2;
+package Seminar4.Lekc.Ex004.V2;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class Repository<T> {
+public class Repository<T extends Content> {
     List<T> ds;
 
     private String name;

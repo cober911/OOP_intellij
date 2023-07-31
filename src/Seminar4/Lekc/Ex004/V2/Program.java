@@ -1,4 +1,4 @@
-package Lesson_10.Ex004.V2;
+package Seminar4.Lekc.Ex004.V2;
 
 public class Program {
     public static void main(String[] args) {
@@ -28,16 +28,16 @@ public class Program {
         //#region 
         // (нет)
         
-        Repository<String> stringRepository = new Repository<>("stringRepository");
-        stringRepository.add("Кринж");
-        stringRepository.add("Краш");
-        stringRepository.add("Рофл");
-        stringRepository.add("Криповый");
-        stringRepository.add("Личинус");
-        stringRepository.add("Шеймить");
-        for (int i = 0; i < stringRepository.count(); i++) {
-            System.out.println(stringRepository.get(i));
-        }
+//        Repository<String> stringRepository = new Repository<>("stringRepository");
+//        stringRepository.add("Кринж");
+//        stringRepository.add("Краш");
+//        stringRepository.add("Рофл");
+//        stringRepository.add("Криповый");
+//        stringRepository.add("Личинус");
+//        stringRepository.add("Шеймить");
+//        for (int i = 0; i < stringRepository.count(); i++) {
+//            System.out.println(stringRepository.get(i));
+//        }
         //#endregion
     }
 }

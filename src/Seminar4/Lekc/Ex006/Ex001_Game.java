@@ -1,4 +1,4 @@
-package Ex006;
+package Seminar4.Lekc.Ex006;
 
 import java.util.ArrayList;
 import java.util.List;

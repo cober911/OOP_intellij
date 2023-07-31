@@ -1,7 +1,7 @@
-package Lesson_10.Ex002;
+package Seminar4.Lekc.Ex002;
 
 import java.util.UUID;
-
+import Seminar4.Lekc.Ex002.*;
 public class Program {
     public static void main(String[] args) {
 
@@ -28,14 +28,14 @@ public class Program {
 
         // #endregion
 
-        // #region MultiParameterized
-        // MultiParameterized<Integer, Double, String> mp1 = new MultiParameterized<>(
-        //         1, 2.0, "3.0");
-        // System.out.println(mp1);
+//         #region MultiParameterized
+         MultiParameterized<Integer, Double, String> mp1 = new MultiParameterized<>(
+                 1, 2.0, "3.0");
+         System.out.println(mp1);
 
-        // MultiParameterized<String, String, String> mp2 = new MultiParameterized<>(
-        //         "1", "2.0", "3.0");
-        // System.out.println(mp2);
+         MultiParameterized<String, String, String> mp2 = new MultiParameterized<>(
+                 "1", "2.0", "3.0");
+         System.out.println(mp2);
 
         // #endregion
 
