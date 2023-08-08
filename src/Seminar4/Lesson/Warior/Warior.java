@@ -4,9 +4,9 @@ import Seminar4.Lesson.Weapon.Weapon;
 
 import java.util.Random;
 
-public abstract class Warior {
+public abstract class Warior<T extends Weapon> {
     private String name;
-    private Weapon weapon;
+    protected T weapon;
     private int healthPoint;
 
     public int hit(){
@@ -14,7 +14,7 @@ public abstract class Warior {
         return rnd.nextInt(weapon.damage());
     }
 
-    public Warior(String name, Weapon weapon, int healthPoint) {
+    public Warior(String name, T weapon, int healthPoint) {
         this.name = name;
         this.weapon = weapon;
         this.healthPoint = healthPoint;

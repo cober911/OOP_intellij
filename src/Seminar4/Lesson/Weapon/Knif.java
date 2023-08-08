@@ -8,6 +8,6 @@ public class Knif implements Weapon{
 
     @Override
     public String toString() {
-        return String.format("Knife demage: %s", damage());
+        return String.format("Knife damage: %s", damage());
     }
 }
