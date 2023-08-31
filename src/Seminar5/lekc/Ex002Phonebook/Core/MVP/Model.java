@@ -6,8 +6,8 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-import Ex002Phonebook.Core.Infrastructure.Phonebook;
-import Ex002Phonebook.Core.Models.Contact;
+import Seminar5.lekc.Ex002Phonebook.Core.Infrastructure.Phonebook;
+import Seminar5.lekc.Ex002Phonebook.Core.Models.Contact;
 
 public class Model {
 

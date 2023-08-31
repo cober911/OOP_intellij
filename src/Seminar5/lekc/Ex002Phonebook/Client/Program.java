@@ -1,12 +1,12 @@
 package Seminar5.lekc.Ex002Phonebook.Client;
 
-import Ex002Phonebook.UI.App;
+//import Ex002Phonebook.UI.App;
 
 public class Program {
 
     public static void main(String[] args) {
         
-        App.ButtonClick();
+//        App.ButtonClick();
      
     }
 }
